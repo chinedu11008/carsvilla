@@ -1,0 +1,292 @@
+.top-container {
+    width: 100%;
+    height: 20vh;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  * {
+    margin: 0;
+    text-decoration: none;
+    transition: all 1s;
+  }
+  
+  .navbar a {
+    font-size: 20px;
+    color: black;
+    padding: 0.2rem 0.3rem;
+    margin: 0 2rem;
+    border-radius: 5rem;
+    text-transform: capitalize;
+  }
+  .navbar {
+    padding: 10px;
+  }
+  .navbar a:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  .header {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    height: 40px;
+  }
+  .pix {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .container {
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 400px;
+    margin-left: 38.3%;
+    height: 50vh;
+    margin-top: 80px;
+    border-radius: 10px;
+    /* padding: 2rem 3rem; */
+  }
+  .con2{
+    padding: 10px;
+  }
+  body {
+    animation: infinite change 45s  ease-in-out ;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image:linear-gradient(rgba(4,9,30,7),rgba(4,9,30,0.1) ) ,url("./dl.gif");
+  }
+  .data {
+    
+    width: 62%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  /* .data:hover{
+    color: white;
+  } */
+  
+  h3 {
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 0;
+   
+    text-transform: capitalize;
+  }
+  h2 {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    text-transform: capitalize;
+  }
+  
+  h4 {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  a{
+    color: red;
+  }
+  button {
+    width: 6vw;
+    height: 4vh;
+    color: red;
+    background: black;
+    text-transform: uppercase;
+    font-size: large;
+    border-radius: 10px;
+    
+  }
+ 
+  .last {
+    padding: 30px;
+  }
+
+
+
+
+/* responisveness */
+/* small size */
+@media (max-width:500px) {
+  .container{
+    margin-top: -5px;
+    width: 80%;
+    height:120vw;
+    margin-left: 40px;
+  }
+  h3{
+   margin-left: 9px;
+  }
+  .data{
+    width: 70vw;
+  }
+  button{
+    font-size: 15px;
+    width: 70px;
+    height: 45px;
+  }
+ 
+}
+
+ 
+
+@media (max-width:456px) {
+  .container{
+    margin-top: -5px;
+    width: 80%;
+    height:90vw;
+    margin-left: 40px;
+  }
+  h3{
+   margin-left: 9px;
+  }
+  .data{
+    width: 70vw;
+  }
+  button{
+    width: 101.1px;
+    height: 45px;
+  }
+}
+
+@media (max-width:376px) {
+  .container{
+    margin-top: -5px;
+    width: 80%;
+    height:100vw;
+    margin-left: 40px;
+  }
+  h3{
+   margin-left: 9px;
+  }
+  .data{
+    width: 70vw;
+  }
+  button{
+    width: 90px;
+    height: 45px;
+  }
+}
+
+
+
+
+
+
+@media (max-width:375px) {
+  .container{
+    margin-top: -5px;
+    width: 80%;
+    height:100vw;
+    margin-left: 40px;
+  }
+  h3{
+   margin-left: 9px;
+  }
+  .data{
+    width: 70vw;
+  }
+  button{
+    width: 90px;
+    height: 45px;
+  }
+}
+
+
+@media (max-width:321px) {
+  .container{
+    margin-top: -5px;
+    width: 80%;
+    height:120vw;
+    margin-left: 40px;
+  }
+  h3{
+   margin-left: 9px;
+  }
+  .data{
+    width: 70vw;
+  }
+  button{
+    font-size: 15px;
+    width: 70px;
+    height: 45px;
+  }
+  body{
+    background-image:linear-gradient(rgba(4,9,30,7),rgba(4,9,30,0.1) ) ,url("./smooth.gif");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/*   
+  @keyframes change{
+      0%{
+          background-image: url("./bull.jpg");
+      }
+      20%{
+          background-image: url("./pi.jpg");
+      }
+      40%{
+          background-image: url("./fast.jpg");
+      }
+      60%{
+          background-image: url("./in.jpg");
+      }
+      80%{
+          background-image: url("./lamba.jpg");
+      }
+      100%{
+          background-image: url("./Para.jpg");
+      }
+      150%{
+          background-image: url("fer.jpg");
+      }
+  } */
